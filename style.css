@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1920px;
+    height: 100vh;
+}
+
+.section-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(main-photo.jpg) no-repeat top / cover;
+    height: 1000px;
+}
+
+.Eligane{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width:610px;
+
+}
+
+.title{
+    height: 228px;
+    width: 400px;
+}
+  
+.subtitle{
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: black;
+}
+
+.form{
+    width: 380px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    background: #2e4546;
+}
+.tab-form{
+    background: #2e4546;
+    padding: 10px;
+}
+.form input{
+    padding: 0 10px;
+    display: block;
+    height: 50px;
+    margin: 10px 0 15px 0;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    width: 93%;
+    border: none;
+}
+
+.tabs{
+    display: flex;
+}
+
+.form p{
+    height: 55px;
+    margin: -5px 0;
+    color:white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+label.tab.active{
+    background-color: #2e4546;
+    color: #ffffff;
+}
+
+.active{
+    display: none;
+}
+
+.tab{
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    background: #c1c7c7;
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 15px;
+    display: block;
+    width: 44%;
+    cursor: pointer;
+}
+
+.tab-form button{
+    display: inline-block;
+    width: 99%;
+    height: 50px;
+    text-align: center;
+    background: #ff6600;
+    text-decoration: none;
+    color: #2e4546ed;
+    border: none;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1920px){
+    .main{
+        width: 100%;
+    }
+
+    .form{
+        margin-top: 50px;
+    }
+
+    .section-first{
+        flex-direction: column;
+    }
+}
